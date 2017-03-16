@@ -1,3 +1,21 @@
 // Place all the styles related to the Items controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+.wrap {
+  width: 100%;
+}
+
+.floatleft {
+  float: left;
+  width: 50%;
+  background-color: #00FFFF;
+  height: 400px;
+}
+
+.floatright {
+  float: right;
+  background-color: #00ff00;
+  height: 400px;
+  width: 50%;
+}

@@ -1,5 +1,15 @@
 <p id="notice"><%= notice %></p>
 
+<div class="wrap">
+    <div class="floatleft">
+      <% @items.each do |item| %>
+         <ul><%= item.name %></ul>
+      <% end %>
+    </div>
+    <div class="floatright"></div>
+    <div style="clear: both;">
+</div>
+
 <h1>Items</h1>
 
 <table>
